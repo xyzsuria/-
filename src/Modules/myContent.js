@@ -15,14 +15,14 @@ const siderStyle = {
   textAlign: 'center',
   lineHeight: '120px',
   color: '#fff',
-  backgroundColor: '#1677ff',
+  backgroundColor: 'white',
 };
 const MyContent = () => (
   <Flex gap="middle" wrap="wrap">
       <Layout>
         <Sider width="23%" style={siderStyle}>
         <Title level={5}>路径真实性支撑</Title>
-        <Title level={5} style={{ backgroundColor: 'white' }}>路径验证和追溯</Title>
+        <Title level={5}>路径验证和追溯</Title>
           <MyLeftMiddleComponent></MyLeftMiddleComponent>
         </Sider>
         <Content style={contentStyle}>
